@@ -2,6 +2,7 @@
 
 ## Register New User
 Method: POST
+
 Endpoint: /api/register
 
 Request body:
@@ -39,6 +40,7 @@ Response body (failed):
 
 ## Login User
 Method: POST
+
 Endpoint: /api/login
 
 Request body:
