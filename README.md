@@ -5,6 +5,10 @@ Method: POST
 
 Endpoint: /api/register
 
+Headers:
+- Accept: application/json
+- Content-Type : application/json
+
 Request body:
 ```json
 {
@@ -42,6 +46,10 @@ Response body (failed):
 Method: POST
 
 Endpoint: /api/login
+
+Headers:
+- Accept: application/json
+- Content-Type : application/json
 
 Request body:
 ```json
