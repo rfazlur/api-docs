@@ -54,9 +54,18 @@ Request body:
 Response body (success):
 ```json
 {
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwODEvYXBpL2xvZ2luIiwiaWF0IjoxNzU4NDMzNzg4LCJleHAiOjE3NTg0MzczODgsIm5iZiI6MTc1ODQzMzc4OCwianRpIjoiS2hIeHJ5UXV3a1ozWEpIOCIsInN1YiI6IjgiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.X7RIXJJ_B7jwTly7ODl2U6B8WrkBTVl_ARxowc83lLA",
-    "token_type": "bearer",
-    "expires_in": 3600
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMjUyYjg0Mzc2NjY1Lm5ncm9rLWZyZWUuYXBwL2FwaS9sb2dpbiIsImlhdCI6MTc1ODQzNzM4MCwiZXhwIjoxNzU4NDQwOTgwLCJuYmYiOjE3NTg0MzczODAsImp0aSI6InpKNWxHZlBjVnNPdVBsN08iLCJzdWIiOiI5IiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.XsfJHsg79zSuEFxQ1Ke2smC3yYin_bZjbzghyOMymzI",
+  "token_type": "bearer",
+  "expires_in": 3600,
+  "user": {
+    "id": 9,
+    "username": "myUserName",
+    "fullname": "My Full Name",
+    "email": "my_email@example.com",
+    "email_verified_at": null,
+    "created_at": "2025-09-21T06:49:08.000000Z",
+    "updated_at": "2025-09-21T06:49:08.000000Z"
+  }
 }
 ```
 
